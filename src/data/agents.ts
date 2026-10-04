@@ -1,0 +1,6 @@
+export interface Agent { id:string; name:string; role:string; bio:string; phone:string; email:string; specialization:string; image:string; }
+export const agents: Agent[] = [
+  { id:'amina', name:'Amina Bello', role:'Senior Property Advisor', bio:'Demo profile for this portfolio concept. Amina is presented as a calm, detail-focused advisor for premium residential searches.', phone:'+234 800 000 1001', email:'amina@example.com', specialization:'Ikoyi & Victoria Island', image:'https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=800&q=85' },
+  { id:'tunde', name:'Tunde Adeyemi', role:'Residential Consultant', bio:'Fictitious agent profile created for demonstration. Tunde focuses on practical family homes and mainland residential opportunities.', phone:'+234 800 000 1002', email:'tunde@example.com', specialization:'Lekki & Mainland', image:'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=85' },
+  { id:'chioma', name:'Chioma Okafor', role:'Property Consultant', bio:'Sample profile only. Chioma is positioned around rental, relocation and lifestyle-led residential searches.', phone:'+234 800 000 1003', email:'chioma@example.com', specialization:'Victoria Island & Oniru', image:'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=85' },
+];

@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --color-ink: #17211f;
+  --color-forest: #17342f;
+  --color-forest-light: #28554c;
+  --color-sand: #f4f1ea;
+  --color-stone: #e7e3da;
+  --color-muted: #6d7773;
+  --color-line: #dedbd3;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap');
+
+:root { font-family: var(--font-body); color: var(--color-ink); background: #faf9f6; font-synthesis: none; text-rendering: optimizeLegibility; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; background: #faf9f6; }
+button, input, select, textarea { font: inherit; }
+::selection { background: #d6e1dd; color: #17342f; }
+
+.font-display { font-family: "Playfair Display", Georgia, serif; }
+.container-shell { width: min(1180px, calc(100% - 40px)); margin-inline: auto; }
+.eyebrow { letter-spacing: .14em; text-transform: uppercase; font-size: .72rem; font-weight: 700; }
+
+.reveal { animation: reveal .65s cubic-bezier(.2,.8,.2,1) both; }
+@keyframes reveal { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
