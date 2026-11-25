@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "node ./node_modules/typescript/bin/tsc -b && vite build",
     "preview": "vite preview",
-    "lint": "tsc --noEmit",
+    "lint": "node ./node_modules/typescript/bin/tsc --noEmit",
     "format": "prettier --write \"src/**/*.{ts,tsx,css}\" index.html",
     "format:check": "prettier --check \"src/**/*.{ts,tsx,css}\" index.html"
   },
@@ -18,7 +18,7 @@
     "react-dom": "latest",
     "react-router-dom": "latest",
     "tailwindcss": "latest",
-    "typescript": "latest",
+    "typescript": "5.9.3",
     "vite": "latest"
   },
   "devDependencies": {
