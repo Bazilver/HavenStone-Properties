@@ -63,7 +63,7 @@ export function Home() {
             </p>
           </div>
           <div className="relative lg:justify-self-end">
-            <div className="relative aspect-[4/3] w-full max-w-[560px] overflow-hidden rounded-2xl sm:aspect-[4/5] lg:aspect-[5/6]">
+            <div className="relative aspect-[4/3] w-full max-w-[560px] overflow-hidden rounded-2xl sm:aspect-[16/10] lg:aspect-[5/6]">
               <SafeImage
                 src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=90"
                 alt="Demo luxury Lagos residence"

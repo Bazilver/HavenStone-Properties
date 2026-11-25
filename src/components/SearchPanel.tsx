@@ -36,7 +36,7 @@ export function SearchPanel({
   return (
     <form
       onSubmit={submit}
-      className={`grid gap-2 rounded-2xl border border-white/20 bg-white p-2 shadow-[0_20px_50px_rgba(15,35,31,.18)] sm:grid-cols-2 ${compact ? "md:grid-cols-6" : "md:grid-cols-3 lg:grid-cols-6"}`}
+      className={`grid gap-2 rounded-2xl border border-white/20 bg-white p-2 shadow-[0_20px_50px_rgba(15,35,31,.18)] sm:grid-cols-2 ${compact ? "md:grid-cols-3 lg:grid-cols-6" : "md:grid-cols-3"}`}
     >
       <label className="flex min-w-0 flex-col rounded-xl px-4 py-3 hover:bg-sand">
         <span className="text-[10px] font-bold uppercase tracking-widest text-muted">
